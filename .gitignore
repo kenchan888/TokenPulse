@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+
+# Runtime logs and temporary data
+scripts/_*.log
+scripts/_tmp/
+scripts/*.log
+*.tmp
+
+# Local environment and editor
+.env
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local WorkBuddy data (never commit)
+workbuddy.db
+projects/
